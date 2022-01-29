@@ -1,0 +1,15 @@
+ORT=8000
+ENVIRONMENT=local
+SQLITE_URL=db/streetmelts.db
+TWITTER_CONSUMER_KEY=""
+TWITTER_CONSUMER_SECRET=""
+TWITTER_ACCESS_TOKEN=""
+TWITTER_ACCESS_TOKEN_SECRET=""
+
+TWITTER_BEARER_TOKEN=""
+TWITTER_APP_ID=""
+OPENSEA_EVENTS_API="https://api.opensea.io/api/v1/events"
+OPENSEA_API_KEY=""
+
+PROXY_API_KEY=""
+PROXY_API_URL="https://proxy.webshare.io/api/proxy/list/?page=1"

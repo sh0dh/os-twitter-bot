@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "Running Streetmelt bot"
+
+APP_PATH="$HOME/vandul-twitter-bot-rq/"
+
+. $HOME/.poetry/env
+poetry --version
+cd $APP_PATH
+echo $APP_PATH
+echo "  > Run migrations"
+poetry run db:migrate
+echo "  > Run service: $0"
+poetry run python src/schedulers/$0
